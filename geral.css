@@ -1,1 +1,33 @@
+ #calculadora {
+     background: gray;
+     width: 200px;
+     padding: 10px;
+     text-align: center;
+     border-radius: 10px;
+ }
+   #calculadora input {
+       background: black;
+       color: royalblue;
+       padding: 5px;
+       border-radius: 5px;
+   }
+   #sptotal {
+       background: black;
+       color: blanchedalmond;
+       padding: 10px;
+       border-radius: 10px;
+       margin-bottom: 10px;
+   }
+   #calculadora button {
+       background: whitesmoke;
+       color: black;
+       padding: 5px;
+       border-radius: 5px;
+       margin-top: 5px;
+   }
+   #calculadora button:hover {
+       background: black;
+       color: pink;
+       cursor: progress;
+   }
 
