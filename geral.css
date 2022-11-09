@@ -4,6 +4,22 @@
  padding: 10px;
  text-align: center;
  border-radius: 10px;
+ box-shadow: blueviolet;
+}
+.spMes{
+    border-color: #7B68EE;
+    border-width: 1px;
+    border-style: dashed;
+    background: #D8BFD8;
+    color: rgb(87, 29, 163);
+    text-align: start;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+#calculadora input:focus{
+    background: #FFDAB9;
+color: rgb(139, 47, 182);
 }
 #calculadora input{
     background: #FFE4E1;
@@ -42,3 +58,4 @@ h3{
 #input-calcF:checked + #calculadora .calcF {
     display: block;
 }
+
