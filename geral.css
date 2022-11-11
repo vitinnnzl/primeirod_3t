@@ -1,61 +1,64 @@
 #calculadora {
- background: #D8BFD8;
- width: 200px;
- padding: 10px;
- text-align: center;
- border-radius: 10px;
- box-shadow: blueviolet;
-}
-.spMes{
-    border-color: #7B68EE;
-    border-width: 1px;
-    border-style: dashed;
-    background: #D8BFD8;
-    color: rgb(87, 29, 163);
-    text-align: start;
+    background: rgb(77, 216, 77);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
     border-radius: 10px;
-    padding: 5px;
-    margin-top: 10px;
+    box-shadow: 5px 5px yellowgreen;
 }
 #calculadora input:focus{
-    background: #FFDAB9;
-color: rgb(139, 47, 182);
+    color:rgb(0, 0, 0);
+    background: rgb(0, 192, 176);
 }
-#calculadora input{
-    background: #FFE4E1;
-    color: black;
+.spMes {
+    border-color: black;
+    border-width: 1px;
+    background:burlywood;
+
+    color: rgb(0, 0, 0);
+    text-align: start;
+    border-radius: 10px;
+}
+
+
+#calculadora input {
+    background: rgb(54, 236, 124);
+    color: rgb(0, 0, 0);
     padding: 5px;
     border-radius: 5px;
 }
 #sptotal {
-    background:#FFDAB9;
-padding: 10px;
-border-radius: 10px;
-margin-bottom: 10px;
+    background: rgba(228, 125, 125, 0.767);
+    color: rgb(0, 255, 85);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#calculadora button  {
-    background: #E0FFFF;
+#calculadora button {
+    background: rgb(6, 141, 17);
+    color: rgb(255, 255, 255);
     padding: 5px;
     border-radius: 5px;
     margin-top: 10px;
 }
-#calculadora button:hover  {
-    background: 	#7B68EE;
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 10px;
+#calculadora button:hover{
+    background: rgb(236, 222, 212);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
-h3{
-    color: rgb(87, 29, 163);
-}
-.calcF{
+ h3 {
+     color:brown;
+ }
+ .calcF{
+  display: none;
+
+ }
+
+ #input-calcF{
     display: none;
-}
-#input-calcF{
-    display: none;
+
 }
 #input-calcF:checked + #calculadora .calcF {
-    display: block;
+    display:block;
 }
-
